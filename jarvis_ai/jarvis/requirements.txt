@@ -1,0 +1,31 @@
+# ══════════════════════════════════════════════════
+#   J.A.R.V.I.S — Python Dependencies
+#   Install with:  pip install -r requirements.txt
+# ══════════════════════════════════════════════════
+
+# ── Core / Voice ──────────────────────────────────
+pyttsx3>=2.90              # Text-to-speech (offline, works on Windows/Mac/Linux)
+SpeechRecognition>=3.10    # Voice recognition
+pyaudio>=0.2.13            # Microphone input (required by SpeechRecognition)
+
+# ── Web Automation ────────────────────────────────
+pywhatkit>=5.4             # Play YouTube music + send WhatsApp messages
+# Note: pywhatkit requires Google Chrome installed
+
+# ── Knowledge / Search ────────────────────────────
+wikipedia>=1.4.0           # Wikipedia summaries
+duckduckgo-search>=6.0     # DuckDuckGo search (no API key needed)
+
+# ── Fun / Extras ──────────────────────────────────
+pyjokes>=0.6.0             # Random programming jokes
+
+# ── System Control (optional) ─────────────────────
+pyautogui>=0.9.54          # Screenshots, GUI automation
+pynput>=1.7.6              # Media key control
+
+# ══════════════════════════════════════════════════
+# NOTES:
+# • pyaudio on Windows → pip install pipwin && pipwin install pyaudio
+# • pyaudio on Ubuntu  → sudo apt install portaudio19-dev python3-pyaudio
+# • pyaudio on macOS   → brew install portaudio && pip install pyaudio
+# ══════════════════════════════════════════════════
